@@ -6,4 +6,7 @@ def maskify(cc):
     else:
         return cc
 
-print(maskify("123456789101234567"))
+print("Enter your credit card number")
+message = input("")
+Masked_message = maskify(message)
+print("Your masked Credit Number is " + Masked_message)
